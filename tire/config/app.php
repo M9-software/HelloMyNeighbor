@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Tire Store'),
+    'name' => env('APP_NAME', 'TireStore'),
 
     /*
     |--------------------------------------------------------------------------
@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Shanghai',
 
     /*
     |--------------------------------------------------------------------------
@@ -104,7 +104,7 @@ return [
     |
     */
 
-    'key' => env('Radision.biz-tire-Application'),
+    'key' => 'base64:2dEBgews6/PQWFtPmXWkG1An/F/OmhHgSqdjImuGUCQ=',
 
     'cipher' => 'AES-256-CBC',
 
