@@ -56,7 +56,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'admin@radision.biz'),
+        'address' => env('MAIL_FROM_ADDRESS', 'radision@126.com'),
         'name' => env('MAIL_FROM_NAME', 'Radision'),
     ],
 
@@ -71,7 +71,8 @@ return [
     |
     */
 
-    'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+    'encryption' => env('MAIL_ENCRYPTION', null),
+    // 'encryption' => env('MAIL_ENCRYPTION', 'tls'),
 
     /*
     |--------------------------------------------------------------------------
