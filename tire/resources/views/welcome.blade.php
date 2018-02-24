@@ -66,29 +66,24 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
-
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+<h1>孙老师修车</h1>
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="/imgages/tire.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">轮胎</h5>
+    <p class="card-text">
+      <ul>
+        <li>更换轮胎</li>
+        <li>更换轮胎</li>
+        <li>更换轮胎</li>
+        <li>更换轮胎</li>
+        <li>更换轮胎</li>
+      </ul>
+    </p>
+    <a href="/tire" class="btn btn-primary">走着</a>
+  </div>
+</div>
             </div>
         </div>
     </body>
